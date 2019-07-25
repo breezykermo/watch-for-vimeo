@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+ORIG_PATH=$(pwd)
+watchexec $1 python $ORIG_PATH/upload.py $1
